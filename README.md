@@ -1,4 +1,4 @@
-# Android device tree for alps k69v1_64_k419 (k69v1_64_k419)
+# Android device tree for OMIX X600 (x600)
 
 ```
 #
