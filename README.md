@@ -1,4 +1,4 @@
-# Android device tree for OMIX X600 (x600)
+# TWRP device tree for OMIX X600 (x600)
 
 ```
 #
