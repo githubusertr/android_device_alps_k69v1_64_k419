@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_k69v1_64_k419.mk
+    $(LOCAL_DIR)/twrp_x600.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_k69v1_64_k419-user \
-    omni_k69v1_64_k419-userdebug \
-    omni_k69v1_64_k419-eng
+    twrp_x600-user \
+    twrp_x600-userdebug \
+    twrp_x600-eng
