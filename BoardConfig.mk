@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/alps/x600
+DEVICE_PATH := device/omix/x600
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -49,7 +49,7 @@ BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_KERNEL_CONFIG := x600_defconfig
-TARGET_KERNEL_SOURCE := kernel/alps/x600
+TARGET_KERNEL_SOURCE := kernel/omix/x600
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
@@ -72,9 +72,9 @@ BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
 BOARD_SUPER_PARTITION_SIZE := 9126805504 # TODO: Fix hardcoded value
-BOARD_SUPER_PARTITION_GROUPS := alps_dynamic_partitions
-BOARD_ALPS_DYNAMIC_PARTITIONS_PARTITION_LIST := system vendor product
-BOARD_ALPS_DYNAMIC_PARTITIONS_SIZE := 9122611200 # TODO: Fix hardcoded value
+BOARD_SUPER_PARTITION_GROUPS := omix_dynamic_partitions
+BOARD_omix_DYNAMIC_PARTITIONS_PARTITION_LIST := system vendor product
+BOARD_omix_DYNAMIC_PARTITIONS_SIZE := 9122611200 # TODO: Fix hardcoded value
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6768
