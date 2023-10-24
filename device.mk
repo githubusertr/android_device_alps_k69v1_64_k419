@@ -4,6 +4,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
+
 LOCAL_PATH := device/omix/x600
 
 # Dynamic partitions
