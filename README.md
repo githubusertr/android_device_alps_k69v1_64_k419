@@ -1,5 +1,5 @@
 # TWRP device tree for OMIX X600 (x600)
-thx @forforksake for his a14 tree reference
+thx @forforksake for his recovery_device_samsung_a14m tree reference
 ```
 #
 # Copyright (C) 2023 The Android Open Source Project
