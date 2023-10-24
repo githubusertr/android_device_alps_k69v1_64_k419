@@ -12,14 +12,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
-# Inherit from k69v1_64_k419 device
-$(call inherit-product, device/alps/k69v1_64_k419/device.mk)
+# Inherit from x600 device
+$(call inherit-product, device/omix/x600/device.mk)
 
-PRODUCT_DEVICE := k69v1_64_k419
-PRODUCT_NAME := omni_k69v1_64_k419
-PRODUCT_BRAND := alps
-PRODUCT_MODEL := k69v1_64_k419
-PRODUCT_MANUFACTURER := alps
+PRODUCT_DEVICE := x600
+PRODUCT_NAME := omni_x600
+PRODUCT_BRAND := omix
+PRODUCT_MODEL := x600
+PRODUCT_MANUFACTURER := omix
 
 PRODUCT_GMS_CLIENTID_BASE := android-ragentek
 
