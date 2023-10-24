@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/alps/k69v1_64_k419
+DEVICE_PATH := device/alps/x600
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -48,8 +48,8 @@ BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
-TARGET_KERNEL_CONFIG := k69v1_64_k419_defconfig
-TARGET_KERNEL_SOURCE := kernel/alps/k69v1_64_k419
+TARGET_KERNEL_CONFIG := x600_defconfig
+TARGET_KERNEL_SOURCE := kernel/alps/x600
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
