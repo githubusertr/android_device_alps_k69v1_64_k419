@@ -1,4 +1,4 @@
-# <mount_point>  <fstype>  <device>                     <device2>                  <flags>
+# <mount_point>  <fstype>  <device>                    <device2>                  <flags>
 
   /system         ext4      system                              flags=display=System;logical
   /vendo          ext4      vendor                              flags=display=Vendor;logical
