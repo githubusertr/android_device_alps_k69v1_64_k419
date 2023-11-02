@@ -84,6 +84,13 @@ BOARD_SUPER_PARTITION_GROUPS := omix_dynamic_partitions
 BOARD_OMIX_DYNAMIC_PARTITIONS_PARTITION_LIST := system vendor product
 BOARD_OMIX_DYNAMIC_PARTITIONS_SIZE := 4997799936
 
+# AB
+AB_OTA_UPDATER := true
+
+# Workaround for copying error vendor files to recovery ramdisk
+#TARGET_COPY_OUT_PRODUCT := product
+#TARGET_COPY_OUT_VENDOR := vendor
+
 # Recovery
 BOARD_INCLUDE_RECOVERY_DTBO := true
 TARGET_RECOVERY_PIXEL_FORMAT := BGRA_8888
